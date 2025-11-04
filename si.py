@@ -6,9 +6,9 @@ def calculate_simple_interest(principal, rate, time):
     return interest
 
 # Input values
-principal = float(input("Enter the principal amount: "))
-rate = float(input("Enter the annual interest rate (in %): "))
-time = float(input("Enter the time (in years): "))
+principal = float("Enter the principal amount: ")
+rate = float("Enter the annual interest rate (in %): ")
+time = float("Enter the time (in years): ")
 
 # Calculate interest
 interest = calculate_simple_interest(principal, rate, time)
